@@ -1,0 +1,38 @@
+#chart-data-selector {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5vh 1rem 1.5vh 1rem;
+}
+
+#brush-area-props {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 3vh;
+    column-gap: 1rem;
+    margin-top: 1vh;
+    margin-left: 10%;
+}
+
+.brush-area-props-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3vh;
+}
+
+.brush-area-props-item-label {
+    line-height: 3vh;
+    font-size: 2vh;
+    color: white;
+    background-color: maroon;
+    padding-left: 0.4rem;
+}
+
+.brush-area-props-item-value {
+    line-height: 3vh;
+    font-size: 2vh;
+    text-align: center;
+    color: white;
+    background-color: maroon;
+}
